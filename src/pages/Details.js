@@ -11,11 +11,11 @@ function Details({ match }) {
       <h1 className="m-5 border-bottom bg-transparent text-center">
         country's infromation
       </h1>
-      <div>
+      <div className="d-flex align-items-center justify-content-center">
         {isPending && <Loading />}
         {error && (
           <div>
-            <h3>oops!! 404 error</h3>
+            <h3>Ooops!!! 404 The requested Page is currently unavailable </h3>
           </div>
         )}
         {countries &&
