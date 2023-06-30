@@ -4,7 +4,7 @@ import Card from "../components/Card";
 import Loading from "../components/Loading";
 
 function Countries() {
-  const url = "https://restcountries.eu/rest/v2/all";
+  const url = "https://restcountries.com/rest/v3.1/all";
   const { countries, isPending, error } = useCountries(url);
   return (
     <section>
