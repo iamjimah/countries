@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 function Home() {
   return (
     <section
-      className="bg-warning  d-flex flex-column justify-content-center align-items-center"
+      className="bg-success  d-flex flex-column justify-content-center align-items-center"
       style={{ height: "100vh" }}
     >
       <div className="container">
